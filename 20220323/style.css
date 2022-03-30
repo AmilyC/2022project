@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+body{
+    text-align: center;
+    background-color: rgb(180, 165, 130);
+    position: relative;
+    height: 700px;
+    
+}
+h1{
+
+    color: rgb(98,89,44);
+    font-family: "cwTeXYen", sans-serif;
+}
+h2{
+    /*留歌曲名稱顯示空間*/
+    height:32px;
+    font-family: "cwTeXYen", sans-serif;
+    color: rgb(108,96,36);
+}
+a .playButton{
+    border-radius: 90px;
+    background: rgb(137,125,85);
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    position: absolute;
+    left: -125px;
+    top: 10px;
+}
+a  div {
+            /*margin-top: 20px;
+            border-top: 15px solid transparent;
+            border-bottom: 15px solid transparent;
+            border-left: 25px solid #00DDDD;
+            border-right:transparent;
+            display: inline-block;*/
+           
+            /*border-radius: 90px;
+            
+            border: 3px solid navy;
+            padding: 5px 5px;
+            background: lightcyan;
+            width: 50px;
+            height: 50px;
+            text-align: center;*/
+            width: 0;
+           
+            
+           
+        }
+
+
+
+       
+a  .pauseButton:hover{
+    color: rgb(162,140,55);
+    filter: drop-shadow(2px 5px 5px rgba(0, 0, 0, .5));
+                
+
+}
+      
+       
+
+a   .pauseButton{
+    
+
+
+    border-radius: 90px;
+    background: rgb(137,125,85);
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 11px;
+    left: -100px;
+    
+
+}
+a .pauseButton:hover{
+
+    background-color: rgb(162,140,55);
+    filter: drop-shadow(2px 5px 5px rgba(0, 0, 0, .5));
+
+}
+
+a .setsec{
+    
+    border-radius: 90px;
+
+    background: rgb(137,125,85);
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    position: absolute;
+    left: -150px;
+    top: 10px;
+    
+}
+
+a  .setsec:hover{
+    background: rgb(162,140,55);
+    filter: drop-shadow(2px 5px 5px rgba(0, 0, 0, .5));
+
+}
+
+img {
+    margin-top: 4px;
+    margin-left: 4.8px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+
+a{
+    position: relative;
+    margin-left: 10%;
+    margin-top: 1%;
+
+}
+
+a .playButton:hover{
+    background: rgb(162,140,55);
+    filter: drop-shadow(2px 5px 5px rgba(0, 0, 0, .5));
+}

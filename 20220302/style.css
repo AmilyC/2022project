@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif+TC&amp;display=swap);
+h1 {
+    font-family: "cwTeXFangSong","Noto Sans TC", sans-serif;
+    font-size: 40px;
+    color: rgb(172, 94, 94);
+    text-align: center;
+    position: relative;
+}
+body{
+    text-align: center;
+    background-color: rgb(238,169,169);
+}
+
+
+td{
+    font-family: "Noto Serif TC","Noto Sans TC",sans-serif;
+    border-bottom: 1px solid rgb(172, 94, 94);
+}
+
+th{
+    font-family:  "Noto Serif TC","Noto Sans TC",sans-serif ;
+    color: rgb(191,103,102);
+    
+}
+
+table{
+    width: 60%;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 2em;
+    font-family:"Brush Script MT","Courier New ","Times New Roman" ,sans-serif;
+    color: rgb(134,71,63);
+    
+}
