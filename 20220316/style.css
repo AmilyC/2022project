@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif+TC&amp;display=swap);
 body{
     text-align: center;
-    background-color: rgb(110,85,47);
+   
 }
 
 canvas{
@@ -13,12 +13,13 @@ canvas{
 
 #talkBox{
     height: 20px;
-    color:white;
+    color:black;
     font-size: 26px;
     font-weight: bold;
     font-family: "cwTeXFangSong";
 }
 h1{
-    color: white;
+    color: black;
     font-family: "DFKai-sb", "cwTeXFangSong",sans-serif;
+    
 }
