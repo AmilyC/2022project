@@ -1,0 +1,16 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+svg{
+    border: 1px solid gray;
+    background-color: #EBD5CB;
+    
+}
+h1{
+   padding-left: 100px;
+   border-left-width:50px;
+   color: #006663;
+   font-family: 'Noto Sans TC', sans-serif !important;
+}
+text{
+    font-size: 24px;
+    font-family: 'Noto Sans TC', sans-serif !important;
+}
