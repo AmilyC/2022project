@@ -1,0 +1,33 @@
+svg {
+    border: 1px solid #ccc;
+}
+.axis .domain {
+    stroke: none;
+}
+.x line {
+    stroke: rgb(150, 148, 148);
+}
+
+.axis .tick line {
+    stroke-width: 0.5;
+    stroke-dasharray: 4, 2;
+}
+.line-chart-container{
+    top: 5.5em;
+    left: 30em;
+    position: absolute;
+}
+
+.scatter-plot-container{
+    top: 5.5em;
+    position: absolute;
+    left: 65em;
+}
+
+.bar-chart-container{
+    top: 5.5em;
+    position: absolute;
+
+}
+
+

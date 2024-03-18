@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif+TC&amp;display=swap);
+
+body {
+    text-align: center;
+    background-color: rgb(245, 150, 170);
+}
+
+h1 {
+    color: rgb(248, 246, 246);
+    font-family: "DFKai-sb", "cwTeXFangSong", sans-serif;
+}
+
+input {
+    color: white;
+    background-color: rgb(100, 54, 60);
+    border-radius: 15px;
+
+}
+
+h2 {
+    color: white;
+    font-family: "cwTeXFangSong", "Noto Sans TC", sans-serif;
+
+
+}

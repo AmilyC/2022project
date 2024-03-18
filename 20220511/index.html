@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Galaxy Tours</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <style ></style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h1>阿嬤的開心農場</h1>
+        <div id="app">
+           <h2 :class="h2ClassController">{{productName}}</h2>
+           <p :style="pStyleController">{{productDescription}}</p>
+
+            <table v-for="(productClass, index) in productClasses":key="index" width="100%">
+                <tr>
+                    <td width="20%">{{productClass.name}}</td>
+                    <td width="20%">NT${{productClass.price.toLocaleString('en-US')}}</td>
+                    <td>
+                        <button @click="Book(productClass.name)"style="width: 35%" v-if="productClass.earlyBird">早鳥訂購!</button>
+                        <button @click="Book(productClass.name)"style="width: 35%" v-else>訂購</button>&nbsp;
+                        <span v-show="productClass.productAvailable < 10 " style="color: #FFD400">Almost Sold Out!</span>
+                    </td>
+                </tr>
+            </table> 
+             <span v-show="showBooktable">
+            <table >
+              
+                <select v-model="selectedIndex">
+                    <option v-for="(stringItem, index) in productClasses" :value="index">
+                        {{stringItem.name}}
+                    </option>
+                </select>
+                姓名: <input type="text" v-model="name">
+                數量: <input type="text" v-model="number">
+                備註: <input type="text" v-model="note">
+                <button @click="displaySummary">下單</button><br>
+                {{summary}}
+            </table></span>
+
+
+
+           <img :src="imgSrc[selectedIndex]"
+                :style="imageStyleController"
+                :alt="imageAlt":title="imageAlt"
+           >
+        </div>
+        
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <script src="main.js"></script>
+        
+    </body>
+</html>

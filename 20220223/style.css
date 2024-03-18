@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif+TC&amp;display=swap);
+h1 {
+    font-size: 50px;
+    color: rgb(98, 89, 44);
+    font-family:"cursive", "cwTeXFangSong","Noto Sans TC", sans-serif;
+    
+    position: relative;
+    left: 10%;
+}
+body{
+    background-image:  url("main.jpg");
+    
+    position: relative;
+}
+input{
+    position: absolute;
+    left: 6%;
+
+}
+ul{
+    position: absolute;
+    text-align: left;
+    left: 6%;
+    top: 270%;
+    font-size: 50px;
+    font-family: "cwTeXFangSong","Noto Sans TC", sans-serif;
+    height: 500px;
+   
+}
+
+.b{
+    position: absolute;
+    left: 50%;
+}
+
+.line{
+    position: absolute;
+    left: 31%;
+    height: 450px;
+    top: 0%;
+
+}
+
+  a div {
+            border-radius: 15px;
+            border: 3px solid rgb(173,161,66);
+            padding: 5px 20px;
+            background: rgb(251,226,81);
+            width: 200px;
+            height: 25px;
+            text-align: center;
+            font-family: "cwTeXFangSong","Noto Sans TC", sans-serif;
+            font-size: 25px;
+            color: black;
+            position: absolute;
+            left: 5%;
+            top: 70px;
+        }
+
+        a:hover div {
+            box-shadow: 5px 5px 10px dimgrey;
+
+        }
+
+        a:active div {
+
+            margin-top: 10px;
+            margin-left: 5px;
+            box-shadow: 0px 0px 0px dimgrey;
+
+        }
